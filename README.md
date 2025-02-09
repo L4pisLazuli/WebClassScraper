@@ -52,7 +52,7 @@ webclassの授業情報を取得するスクリプトです。
 必要に応じて以下のコマンドでインストールしてください:
 
 ```bash
-pip install requests 
+pip install requests beautifulsoup4
 ```
 
 ## 使い方
