@@ -18,6 +18,9 @@ class WebClassClient:
         self.login_info["username"] = username
         self.login_info["val"] = password
 
+    def set_wbt_session(self, wbt_session):
+        self.cookie = self.session_manager.set_wbt_session(wbt_session, self.logger)
+
     def login(self):
         session, acs, cookie = self.session_manager.login(self.url, self.login_info, self.logger)
         if session is not None:

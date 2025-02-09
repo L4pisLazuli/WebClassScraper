@@ -26,6 +26,11 @@ class SessionManager:
             logger.error(f"login failed: {e}")
             return None, None, None
 
+    def set_wbt_session(self, wbt_session, logger):
+        self.cookie = {"WBT_Session": wbt_session}
+        logger.info("set wbt_session success")
+        return self.cookie
+
     def logout(self, url, logger):
         if url is None or self.cookie is None:
             logger.error("did not login")
