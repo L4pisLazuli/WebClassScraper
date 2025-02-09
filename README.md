@@ -1,4 +1,4 @@
-# WebClass Client
+# WebClass_client
 webclassの授業情報を取得するスクリプトです。
 
 ## ディレクトリ構成
