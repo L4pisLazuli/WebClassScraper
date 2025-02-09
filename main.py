@@ -1,4 +1,4 @@
-from webclass_client.client import WebClassClient
+from webclass_client import WebClassClient
 from datetime import datetime
 
 if __name__ == "__main__":
