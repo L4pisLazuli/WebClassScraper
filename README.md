@@ -71,3 +71,4 @@ python main.py
 
 ##  カスタマイズ
 main.pyを変更することで任意の講義情報、課題情報、メッセージ情報を取得することができます。
+client.set_wbt_sessionを使用してcookieを設定することで、loginをしなくても情報を取得することが可能
